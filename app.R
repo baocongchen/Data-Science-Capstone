@@ -120,7 +120,7 @@ ui <- shinyUI(navbarPage("LUX et VERITAS",
                                   br(),
                                   fluidRow(
                                     tags$footer(
-                                      tags$address(tags$a(href='mailto:peter_tran_cm@yahoo.com','Thong B. Tran')),
+                                      tags$address(tags$a(href='mailto:peter_tran_cm@yahoo.com','Buu Thong Tran')),
                                       tags$p(tags$small('Copyright (c) 2016 Text Wizard All rights reserved'))
                                     )
                                   )
