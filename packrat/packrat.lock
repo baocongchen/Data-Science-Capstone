@@ -1,0 +1,132 @@
+PackratFormat: 1.4
+PackratVersion: 0.4.7.1
+RVersion: 3.2.5
+Repos: BioCsoft=https://bioconductor.org/packages/3.2/bioc,
+    BioCann=https://bioconductor.org/packages/3.2/data/annotation,
+    BioCexp=https://bioconductor.org/packages/3.2/data/experiment,
+    BioCextra=https://bioconductor.org/packages/3.2/extra,
+    CRAN=https://cran.rstudio.com/,
+    CRANextra=http://www.stats.ox.ac.uk/pub/RWin
+
+Package: BH
+Source: CRAN
+Version: 1.60.0-1
+Hash: 889445e87a2acd4cc58440957f3b0d1a
+
+Package: DBI
+Source: CRAN
+Version: 0.3.1
+Hash: 096699d1ac1cf530acfc646a0c90ee5d
+
+Package: NLP
+Source: CRAN
+Version: 0.1-9
+Hash: bd55f87ab2c40bdb7310eb7d56d395f4
+
+Package: R6
+Source: CRAN
+Version: 2.1.2
+Hash: c515e41c73294952cbb33ee1c1be5a2d
+
+Package: RWeka
+Source: CRAN
+Version: 0.4-26
+Hash: f3e657fb471a4aea0ab4bd9a927b63cb
+Requires: RWekajars, rJava
+
+Package: RWekajars
+Source: CRAN
+Version: 3.7.13-1
+Hash: 96a666437d85125beaf49382ccc64c34
+Requires: rJava
+
+Package: Rcpp
+Source: CRAN
+Version: 0.12.4
+Hash: 115167d29098a4fd1e572fdbef809438
+
+Package: assertthat
+Source: CRAN
+Version: 0.1
+Hash: 0afb92b59b02593c70ff8046700ba9d3
+
+Package: digest
+Source: CRAN
+Version: 0.6.9
+Hash: fd55d5a024f160fc001a5ece1e27782d
+
+Package: dplyr
+Source: CRAN
+Version: 0.4.3
+Hash: 35bc70760e4bbd3f4bc05fac3bbde3c3
+Requires: BH, DBI, R6, Rcpp, assertthat, lazyeval, magrittr
+
+Package: htmltools
+Source: CRAN
+Version: 0.3.5
+Hash: 56b2a44852ab64c3dd8ef05f725b0079
+Requires: Rcpp, digest
+
+Package: httpuv
+Source: CRAN
+Version: 1.3.3
+Hash: 9c0fcc725400dab7f86c247bf3fc9d0f
+Requires: Rcpp
+
+Package: jsonlite
+Source: CRAN
+Version: 0.9.19
+Hash: 4a983f753b6e88ae0f5a6ac152d8cc32
+
+Package: lazyeval
+Source: CRAN
+Version: 0.1.10
+Hash: 9679f1ac7f6bc07bc79755f34cd15e1f
+
+Package: magrittr
+Source: CRAN
+Version: 1.5
+Hash: bdc4d48c3135e8f3b399536ddf160df4
+
+Package: mime
+Source: CRAN
+Version: 0.4
+Hash: b08c52dae92a0a11e64a4deea032ec33
+
+Package: packrat
+Source: CRAN
+Version: 0.4.7-1
+Hash: 16ca16d36eb18d1d16113606ecc5c400
+
+Package: rJava
+Source: CRAN
+Version: 0.9-8
+Hash: 3e8627a2a5bd45c9bad6112acfc231d9
+
+Package: shiny
+Source: CRAN
+Version: 0.13.2
+Hash: 28d6903a44dc53bd4823fa43ccdc08e5
+Requires: R6, digest, htmltools, httpuv, jsonlite, mime, xtable
+
+Package: shinythemes
+Source: CRAN
+Version: 1.0.1
+Hash: 9a394ba0f9825789949d2253fbe853fa
+Requires: shiny
+
+Package: slam
+Source: CRAN
+Version: 0.1-32
+Hash: bc3501cd4badda02e5be7837847c887d
+
+Package: tm
+Source: CRAN
+Version: 0.6-2
+Hash: 69b73ead3c7aeddd2b2cab86c80ee85c
+Requires: NLP, slam
+
+Package: xtable
+Source: CRAN
+Version: 1.8-2
+Hash: 7293235cfcc14cdff1ce7fd1a0212031
